@@ -12,7 +12,7 @@ export const config = {
   
     return (
       <ul>
-        <li key={10}>{value}</li>
+        <li key={10} onClick={() => alert("Test Alert")}>{value} </li>
       </ul>
     );
   }

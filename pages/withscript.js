@@ -8,7 +8,7 @@ import {useEffect, useState} from 'react';
     
     return (
       <ul>
-       <li key={10}>
+       <li key={10} onClick={() => alert("Test Alert")}>
                 {value}
             </li>
       </ul>
